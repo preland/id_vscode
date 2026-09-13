@@ -61,6 +61,14 @@
         {
           "name": "keyword.other.import-export.id",
           "match": "\\b(export|import)\\b"
+        },
+        {
+          "name": "keyword.other.declaration.id",
+          "match": "\\b(native|asm|func)\\b"
+        },
+        {
+          "name": "keyword.other.test-case.id",
+          "match": "\\b(given|then)\\b"
         }
       ]
     },
