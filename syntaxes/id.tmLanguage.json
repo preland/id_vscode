@@ -76,7 +76,7 @@
       "patterns": [
         {
           "name": "support.function.builtin.id",
-          "match": "\\b(print|input|read_all|len|charat|chr|to_int|push|pop|put|flush|getkey|sleep_ms|ticks|alloc|store_size|peek8|peek16|peek32|peek64|poke8|poke16|poke32|poke64|udiv|umod|ult|ushr|str_of_mem|mem_of_str)\\b(?=\\s*\\()"
+          "match": "\\b(print|eprint|input|read_all|len|charat|chr|to_int|push|pop|put|flush|getkey|sleep_ms|ticks|alloc|store_size|peek8|peek16|peek32|peek64|poke8|poke16|poke32|poke64|udiv|umod|ult|ushr|str_of_mem|mem_of_str)\\b(?=\\s*\\()"
         }
       ]
     },
